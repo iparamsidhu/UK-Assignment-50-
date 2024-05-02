@@ -1,0 +1,56 @@
+[
+    {
+       "image": "images/diet1.jpg",
+       "title": "Meal 1",
+       "description": "Include a variety of foods in your diet to ensure you get a wide range of nutrients. This includes fruits, vegetables, whole grains, lean proteins, and healthy fats",
+       "price": "9,99"
+    },
+    {
+       "image": "images/diet2.jpg",
+       "title": "Meal 2",
+       "description": "Aim to balance your meals with different food groups. Include carbohydrates for energy, protein for muscle repair, and fats for cell function.",
+       "price": "9,99"
+    },
+    {
+       "image": "images/diet3.jpg",
+       "title": "Meal 3",
+       "description": " Practice moderation with portion sizes and avoid overeating. Pay attention to your body's hunger and fullness cues.",
+       "price": "9,99"
+    },
+    {
+       "image": "images/diet4.jpg",
+       "title": "Meal 4",
+       "description": "Processed foods often contain high levels of sugar, salt, and unhealthy fats. Try to limit these foods and opt for whole, unprocessed foods instead.",
+       "price": "9,99"
+    },
+    {
+       "image": "images/diet5.jpg",
+       "title": "Meal 5",
+       "description": "Drink plenty of water throughout the day to stay hydrated. Limit sugary drinks and alcohol.",
+       "price": "9,99"
+    },
+    {
+       "image": "images/diet6.jpg",
+       "title": "Meal 6",
+       "description": "Reduce your intake of foods and drinks high in added sugars and salt. Check food labels for hidden sugars and salt content.",
+       "price": "9,99"
+    },
+    {
+      "image": "images/diet7.jpg",
+      "title": "Meal 7",
+      "description": " Cooking at home allows you to control the ingredients and cooking methods, making it easier to eat healthier.",
+      "price": "9,99"
+   },
+   {
+      "image": "images/diet8.jpg",
+      "title": "Meal 8",
+      "description": "Pay attention to how different foods make you feel. Everyone's nutritional needs are different, so it's important to listen to your body and adjust your diet accordingly.",
+      "price": "9,99"
+   },
+   {
+      "image": "images/diet9.jpg",
+      "title": "Meal 9",
+      "description": "A lean protein source that provides essential amino acids for muscle repair and growth.",
+      "price": "9,99"
+   }
+ ]

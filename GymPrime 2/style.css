@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* navbar*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 3rem;
+    background: #222;
+    z-index: 100000;
+
+}
+.nav h2{
+    color: white;
+    font-size: 1.7rem;
+}
+#item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#item li{
+    list-style: none;
+    padding: 50px;
+}
+
+#item li a{
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+#item li a:hover{
+    color: #ff5733;
+    cursor: pointer;
+}
+
+#item .icon i{
+    color: white;
+    padding-right: 30px;
+    font-weight: bolder;
+}
+
+#item .icon i:hover{
+    color: #ff5733;
+    cursor: pointer;
+}
+
+.back{
+  background-image: url(images/bg.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  z-index: -1;
+}
+.overlap{
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+}
+
+.mid{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.mid p{
+    color: #7f8c8d ;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+}
+.mid h2{
+    color: #fff ;
+    font-size: 3rem;
+}
+.mid .btn{
+    margin-top: 2rem;
+} 
+.mid .btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+.mid .btn a.simple{
+    color: #fff;
+    font-weight: 500;
+    padding:0.9rem 1.6rem ;
+} 
+
+.mid .btn a.simple:hover{
+    color: #ff5733;
+}
+
+.mid .btn a.border{
+    color: #ff5733;
+    border: 1px solid #ff5733;
+    border-radius: 3px;
+    font-weight: 500;
+    padding:0.9rem 1.6rem ;
+} 
+
+.mid .btn a.border:hover{
+    background: #fff;
+    border:1px solid #fff ;
+}
+
+
+/* styling the details section */
+
+.details{
+   width: 100%;
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-between;
+   align-items: center;
+   padding: 8rem 15rem;
+   background: #171819;
+}
+.details h3,h6,h5{
+    color: #fff;
+}
+
+.details .one{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.details .one h3{
+    font-size: 2.5rem;
+    padding-bottom: 1.1rem;
+}
+.details .one h6{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-bottom: 1.2rem;
+}
+.details .one p{
+    color: #666262;
+    font-size: 1.2rem;
+    
+    padding-bottom: 3rem;
+}
+.details .one a{
+    color: #fff;
+    background:#f13a11;
+    padding: 1rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.details .one a:hover{
+    background: #fff;
+    color: #f13a11;
+}
+.details .two{
+    width: 45%;
+    border-left: 1px solid #666262;
+    padding-left: 4rem;
+}
+.details .two h3{
+    font-size: 2.5rem;
+    padding-bottom: 1.1rem;
+}
+.details .two h5{
+    font-size: 1.1rem;
+
+}
+.details .two p{
+    font-size: 1.1rem;
+    color: #666262;
+    margin-bottom: 0.8rem;
+}
+
+/* trainer */
+.trainer{
+    background: #f9f9f9;
+    padding:8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.trainer .about{
+    width: 39%;
+}
+.trainer .about h2{
+    color: #212529;
+    font-size: 2.1rem;
+    padding-bottom: 1.8rem;
+}
+.trainer .about p{
+    color: #7f8c8d;
+    font-size: 1.1rem;
+
+}
+.trainer .people{
+    width: 57%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.trainer .people .team1{
+    width: 45%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow:
+  4.5px 4.5px 3.6px rgba(0, 0, 0, 0.031),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.045),
+  30.1px 30.1px 24.1px rgba(0, 0, 0, 0.059),
+  100px 100px 80px rgba(0, 0, 0, 0.09)
+}
+.trainer .people .team1 .teamDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.trainer .people .team1 .img img{
+    width: 100%;
+    object-fit: cover;
+}
+.trainer .people .team1 .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 5px 20px 0 20px;
+}
+.trainer .people .team1 .name h4{
+    color: #212529;
+    font-size: 1.5rem;
+}
+.trainer .people .team1 .pro p{
+    color: #212529;
+
+}
+.trainer .people .team1 .name i,.trainer .people .team1 .pro i{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #212529;
+}
+.trainer .people .team1 .pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 0px 20px 5px 20px;
+}
+
+.class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 8rem;
+}
+.class .para{
+    font-size: 1.3rem;
+    color: #95a5a6;
+    padding-bottom: 6px;
+    text-align: center;
+}
+.class .h2{
+    font-size: 2.2rem;
+    color: #222;
+    font-weight: 700;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.class .classMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.class .classMenu .team1{
+    width: 32%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow:
+  4.5px 4.5px 3.6px rgba(0, 0, 0, 0.031),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.045),
+  30.1px 30.1px 24.1px rgba(0, 0, 0, 0.059),
+  100px 100px 80px rgba(0, 0, 0, 0.09)
+}
+.class .classMenu.team1 .teamDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.class .classMenu .team1 .teamDetails .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px 0 30px; 
+}
+.class .classMenu .team1 .img img{
+    width: 100%;
+    object-fit: cover;
+}
+.class .classMenu .team1 .teamDetails .name .nameDetails h4{
+    color: #212529;
+    font-size: 1.7rem;
+
+}
+.class .classMenu .team1 .teamDetails .name .nameDetails p{
+    color: #212529;
+    font-size: 1.1rem;
+    
+}
+.class .classMenu .team1 .teamDetails .name .nameDetails p span{
+    font-weight: 700;
+    font-size: 1.1rem;    
+}
+.class .classMenu .team1 .teamDetails .name .num h5{
+    font-size: 1rem; 
+    background: #f13a11;
+    width:3.5rem;  
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    border-radius: 50%;
+}
+.class .classMenu .team1 .teamDetails .pro p{
+    font-size: 1.1rem; 
+    color: #666262;
+}
+.class .classMenu .team1 .teamDetails .pro {
+    padding: 15px 30px 30px 30px;
+}
+
+/* contact */
+.contact{
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.contact .form{
+    width: 45%;
+    
+}
+.contact .form h2{
+    font-size: 2rem;
+    color: #212529;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.contact .form .submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.contact .form .submit input,.contact .form .submit textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #95a5a6;
+    outline: none;
+    margin: 13px 0;
+}
+.contact .form .submit input:focus,.contact .form .submit textarea:focus{
+    border: 1px solid #111;
+
+}
+.contact .form .submit input::placeholder{
+    color:#7f8c8d;
+    font-size: 1.1rem;
+}
+.contact .form .submit textarea::placeholder{
+    color:#7f8c8d;
+    font-size: 1.1rem;
+    height: 80%;
+}
+
+.contact .form .submit a{
+    width: 100%;
+    padding: 15px 0;
+    text-decoration: none;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 13px 0;
+}
+.contact .map{
+    width: 45%;
+
+}
+
+.contact .map h2{
+    font-size: 2rem;
+    color: #212529;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.contact .map p{
+    font-size: 1.1rem;
+    color: #212529;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.contact .map p i{
+    color: red;
+    padding-right: 4px;
+}
+
+
+.contact .map iframe{
+    width: 100%;
+}
+
+.footer{
+    border-top:1px solid #ecf0f1;
+    padding: 5rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background:#FF6600;
+}
+
+.footer p{
+    font-size: 1.1rem;
+}
+.footer p span{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.footer p i{
+    font-size: 1.1rem;
+    padding-right: 10px;
+}
+
+/*  Diet html */
+
+.heading h2{
+    padding-top: 10px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+ .products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-gap: 50px;
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 20px;
+ }
+ .product{
+    padding: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+ }
+ .product img{
+    width: 100%;
+    display: block;
+ }
+ .product .title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+ .product .description{
+    padding: 0 20px 20px 20px;
+    line-height: 22px;
+ }
+ .product .price{
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    color: #9b0b03;
+    padding-top: 30px;
+    font-family: sans-serif;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    transform: rotate(-45deg);
+ }
+ .product .cart{
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    background-color: #3e628f;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+ }
+ .product .cart i{
+    padding-left: 10px;
+ }
+ .view-more{
+    margin: 0 auto;
+    max-width: 1240px;
+    padding: 20px;
+    text-align: center;
+ }
+ .view-more button{
+    padding: 10px 25px;
+ }
+
+ /* Mental  Health */
+ .mental h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+ }
+ main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  .helpline{
+    font-size: 3rem;
+  }
+
+  /* workout html */
+
+  .workout h2{
+    font-size: 3rem;
+    text-align: center;
+    padding:5px;
+  }
+
+  /* Media Query  */
+  @media screen and (max-width:496px) {
+    
+  }
+
+  /*  crousal */
+
+ /* Style for carousel container */
+.carousel-container {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for carousel images */
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    width: 700 px;
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover;
+    margin: 0 5px; /* Adjust margin between images */
+}
+
+/* Style for navigation buttons */
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.prev-button {
+    left: 200px;
+}
+
+.next-button {
+    right: 200px;
+}
+
+/* Style for button hover */
+.prev-button:hover,
+.next-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
